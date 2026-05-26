@@ -16,6 +16,7 @@
     "commandkit": "git+https://github.com/AboMeezO/DevRoots-Commandkit.git#better-package-name",
     "discord.js": "^14.26.4",
     "dotenv": "^17.4.2",
+    "roughjs": "^4.6.6",
     "skia-canvas": "^3.0.8"
   },
   "devDependencies": {
