@@ -1,4 +1,5 @@
 import path from "path";
+import GenTitleImage from "./ImageGen/titleGen";
 
 /**
  * Resolves paths relative to the project root (where package.json is)
@@ -13,4 +14,4 @@ export function resolvePath(...paths: string[]) {
 export function resolveAsset(...paths: string[]) {
   return resolvePath("Assets", ...paths);
 }
-export { default } from "./ImageGen/titleGen";
+export { GenTitleImage };

@@ -11,8 +11,7 @@ import {
 
 import type { Message, Client } from "discord.js";
 
-import { resolveAsset } from "#Utilities";
-import GenTitleImage from "src/Utilities/ImageGen/titleGen.js";
+import { resolveAsset, GenTitleImage } from "#Utilities";
 
 function createGallery(url: string) {
   return new MediaGalleryBuilder().addItems(
