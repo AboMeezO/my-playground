@@ -5,7 +5,7 @@
   "main": "index.ts",
   "description": "",
   "scripts": {
-    "dev": "tsx index.ts",
+    "dev": "tsx --watch index.ts",
     "start": "node dist/index.js",
     "build": "tsc",
     "lint": "eslint .",
@@ -15,24 +15,26 @@
   "dependencies": {
     "commandkit": "git+https://github.com/AboMeezO/DevRoots-Commandkit.git#better-package-name",
     "discord.js": "^14.26.4",
-    "dotenv": "^17.4.2"
+    "dotenv": "^17.4.2",
+    "skia-canvas": "^3.0.8"
   },
   "devDependencies": {
-    "tsx": "^4.22.3",
-    "typescript": "^6.0.3",
+    "@eslint/js": "^10.0.1",
     "@types/node": "^25.9.1",
     "eslint": "^10.4.0",
-    "@eslint/js": "^10.0.1",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-simple-import-sort": "^13.0.0",
     "eslint-plugin-unused-imports": "^4.4.1",
-    "typescript-eslint": "^8.59.4",
+    "globals": "^17.6.0",
     "prettier": "^3.8.3",
-    "globals": "^17.6.0"
+    "tsx": "^4.22.3",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.59.4"
   },
   "imports": {
     "#Utilities": "./src/Utilities/index.js",
     "#Database": "./src/Database/index.js",
-    "#Assets": "./Assets/"
+    "#Assets": "./Assets/",
+    "#Types": "./src/Types/index.js"
   }
 }
